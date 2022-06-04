@@ -41,7 +41,6 @@ class BmiResultScreen extends StatelessWidget {
                   ),
                 ),
               ),
-
               BaseCardWidget(
                 color: theme_const.kActiveCardColour,
                 padding: EdgeInsets.symmetric(
@@ -68,56 +67,8 @@ class BmiResultScreen extends StatelessWidget {
                     textAlign: TextAlign.center,
                     style: theme_const.kBodyTextStyle,
                   ),
-
-                  // Text(
-                  //   bmiResult.bmiToString(),
-                  //   style: theme_const.kBMITextStyle,
-                  // ),
-                  // Text(
-                  //   bmiResult.bmiLevelToString(),
-                  //   style: theme_const.kResultTextStyle,
-                  // ),
-                  // const Text(
-                  //   'Normal BMI Range: 18.5-25 kg/m2',
-                  //   style: theme_const.kResultTextStyle,
-                  // ),
-                  // Text(
-                  //   bmiResult.description,
-                  //   textAlign: TextAlign.center,
-                  //   style: theme_const.kBodyTextStyle,
-                  // ),
                 ],
               ),
-
-              // Expanded(
-              //   flex: 5,
-              //   child: Container(
-              //     color: theme_const.kActiveCardColour,
-              //     child: Column(
-              //       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              //       crossAxisAlignment: CrossAxisAlignment.center,
-              //       children: const [
-              //         Text(
-              //           'bmiResult',
-              //           style: theme_const.kBMITextStyle,
-              //         ),
-              //         Text(
-              //           'bmi.toUpperCase()',
-              //           style: theme_const.kResultTextStyle,
-              //         ),
-              //         Text(
-              //           'Normal BMI Range: 18.5-25 kg/m2',
-              //           style: theme_const.kResultTextStyle,
-              //         ),
-              //         Text(
-              //           'interpretation',
-              //           textAlign: TextAlign.center,
-              //           style: theme_const.kBodyTextStyle,
-              //         ),
-              //       ],
-              //     ),
-              //   ),
-              // ),
               Padding(
                 padding: EdgeInsets.only(bottom: heightPadding / 2),
                 child: ExpandedButton(
